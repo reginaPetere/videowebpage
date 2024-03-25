@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.lyrics {
+    text-align: left;
+    white-space: pre-line;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.lyrics p {
+    margin: 0;
+    padding: 0;
+}
+
+.lyrics .verse {
+    font-weight: bold;
+}
+
+.lyrics .chorus {
+    font-style: italic;
+}
+
+.lyrics .bridge {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.lyrics .instrumental {
+    font-style: italic;
+}
+
+.lyrics .highlight {
+    color: #ff0000; 
+}
